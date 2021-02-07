@@ -43,7 +43,6 @@ const Todo = () => {
     }
 
     const completeTask = (index, taskStatus) => {
-        console.log(taskStatus);
         const newTasks = [...tasks];
         newTasks[index].completedStatus = !taskStatus;
         setTasks(newTasks);
@@ -81,10 +80,9 @@ const Todo = () => {
     return (
         <div className="todo-container">
 
-            <div className="create-task" >
-                {/* <CreateTask addTask={addTask} updateTodo={updateTodo} editTaskVal={editTaskVal} editState={editState} /> */}
-
-                <div className="container">
+            <h1>React Todo App</h1>
+        
+                <div className="create-task container">
                     <input
                         type="text"
                         className="input"
@@ -93,7 +91,7 @@ const Todo = () => {
                         onChange={e => setEditTaskVal(e.target.value)}
                     />
                     <button className="todo-submit-btn" onClick={handleSubmit}>{!editState ? 'Add Task' : 'Update'}</button>
-                </div>
+                
 
                 <div className="filter-tasks">
                     <select onChange={selectValueHandler}>
@@ -104,7 +102,7 @@ const Todo = () => {
                     </select>
                 </div>
 
-            </div>
+                </div>
 
 
             { !editState ? <div className="tasks">

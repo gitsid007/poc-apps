@@ -24,6 +24,10 @@
     color: white;
     float: right;
     }
+
+    .task button:disabled {
+       cursor: not-allowed;
+    }
     
     .create-task input[type=text]{
     margin: 10px 20px;
