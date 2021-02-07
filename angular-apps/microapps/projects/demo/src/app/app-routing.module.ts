@@ -6,7 +6,7 @@ import { UserDataComponent } from './user-data/user-data.component';
 const routes: Routes = [
   { path: '', redirectTo: '/register', pathMatch: 'full' },
   { path: 'register', component: AuthComponent },
-  { path: 'survey', component: UserDataComponent}
+  { path: 'survey', component: UserDataComponent }
 ];
 
 @NgModule({
