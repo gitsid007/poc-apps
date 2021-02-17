@@ -1,0 +1,48 @@
+{
+    "movies": [
+        {
+            "id": 0,
+            "name": "Batman"
+        },
+        {
+            "id": 1,
+            "name": "Halo"
+        },
+        {
+            "id": 2,
+            "name": "Friends"
+        },
+        {
+            "id": 3,
+            "name": "Big Bang Theory"
+        },
+        {
+            "id": 4,
+            "name": "Suits"
+        },
+        {
+            "id": 5,
+            "name": "Prison Break"
+        },
+        {
+            "id": 6,
+            "name": "Avengers"
+        },
+        {
+            "id": 7,
+            "name": "Wonder woman"
+        },
+        {
+            "id": 8,
+            "name": "James Bond"
+        },
+        {
+            "id": 9,
+            "name": "The Lord of the Rings"
+        },
+        {
+            "id": 10,
+            "name": "Game of Thrones"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import { Task } from './Task';
-import './Todo.css';
+import './Todo.scss';
 
 const Todo = () => {
     const [tasks, setTasks] = useState([
