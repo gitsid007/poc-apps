@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.scss';
 import Todo from './components/todo/Todo';
-import AutoSearch from './components/auto-search/autosearch';
+import AutoSearch from './components/autosearch/autosearch';
 
 function App() {
   return (
